@@ -8,6 +8,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .body {
   color: #333;
@@ -142,6 +143,7 @@ html {
 .logos {
   display: flex;
   justify-content: space-between;
+  width: 98%;
 }
 .logos img {
   height: 3.2rem;
@@ -420,8 +422,8 @@ html {
   color: #333;
 }
 .footer {
-  margin: 10rem auto;
-  padding-bottom: 5rem;
+  margin: 10rem auto 0 auto;
+  padding-bottom: 2rem;
   max-width: 130rem;
 }
 .btm-nav {

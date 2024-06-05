@@ -43,7 +43,7 @@
   .li {
     display: none;
   }
-  .nav-open .main-nav {
+  .nav-open .nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -118,9 +118,14 @@
   }
 }
 @media (max-width: 65em) {
+  html {
+    overflow-x: hidden;
+
+    /* font-size: 50%; */
+  }
   .sec-1 {
     max-width: 50rem;
-    margin-top: 20rem;
+    margin-top: 15rem;
     margin-bottom: 20rem;
   }
   .s1-h {
@@ -129,6 +134,10 @@
   .s1-t {
     line-height: 1.7;
     margin-bottom: 5rem;
+    width: 35rem;
+  }
+  .delivered {
+    margin: 2rem 3rem 0 2rem;
   }
   .logos img {
     height: 1.7rem;
