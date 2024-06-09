@@ -33,6 +33,7 @@ html {
 }
 .nav {
   margin-right: 20rem;
+  overflow-x: hidden;
 }
 .nav-list {
   display: flex;
