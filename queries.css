@@ -44,9 +44,10 @@
     display: none;
   }
   .nav-open .nav {
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
+    /* opacity: 1; */
+    /* pointer-events: auto; */
+    /* visibility: visible; */
+    display: block;
     transform: translateX(0);
   }
 
