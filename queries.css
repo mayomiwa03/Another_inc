@@ -178,4 +178,15 @@
   .s5-flx-f {
     max-width: 40rem;
   }
+  .s5-ht {
+    max-width: 40rem;
+  }
+  .s5-b:link,
+  .s5-b:visited {
+    padding: 1rem 5rem;
+    text-align: center;
+  }
+  .s5-t {
+    margin: 0 1.5rem;
+  }
 }
