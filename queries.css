@@ -49,6 +49,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    width: 100%;
     transform: translateX(0);
   }
 
