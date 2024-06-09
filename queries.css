@@ -124,7 +124,7 @@
     /* font-size: 50%; */
   }
   .sec-1 {
-    max-width: 50rem;
+    max-width: 40rem;
     margin-top: 15rem;
     margin-bottom: 20rem;
   }
@@ -163,5 +163,16 @@
   }
   .flx-hero {
     justify-content: center;
+  }
+  .s3-ht {
+    max-width: 45rem;
+  }
+  .s4-h {
+    max-width: 40rem;
+    /* text-align: center; */
+    margin: 0 auto 10rem auto;
+  }
+  .s4-ht {
+    text-align: center;
   }
 }

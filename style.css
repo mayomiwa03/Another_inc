@@ -30,6 +30,7 @@ html {
 }
 .logo {
   margin: 0;
+  padding-top: 2rem;
 }
 .nav {
   margin-right: 20rem;
@@ -162,8 +163,8 @@ html {
 }
 
 .icon-mobile-nav {
-  height: 4rem;
-  width: 4rem;
+  height: 3.5rem;
+  width: 3.5rem;
   color: #333;
 }
 
