@@ -29,25 +29,24 @@
 
     /* hide nav */
     /* allows no transition */
-    display: none;
+    /* display: none; */
 
     /* 1st hide it visually */
-    /* opacity: 0; */
+    opacity: 0;
 
     /* 2nd make it unaccessible to mouse and keyboards*/
-    /* pointer-events: none; */
+    pointer-events: none;
 
     /* 3rd hide it from screen readers */
-    /* visibility: hidden; */
+    visibility: hidden;
   }
   .li {
     display: none;
   }
   .nav-open .nav {
-    /* opacity: 1; */
-    /* pointer-events: auto; */
-    /* visibility: visible; */
-    display: block;
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
     transform: translateX(0);
   }
 
